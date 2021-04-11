@@ -2,6 +2,7 @@ package com.tydic.udbh.stream;
 
 import com.google.common.collect.Lists;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -89,6 +90,10 @@ public class StreamTest1 {
             System.out.println("key:"+entry.getKey());
             System.out.println("value:"+entry.getValue());
         }
+
+//     list.sort(Comparator.comparing(TestStreamModel ::getGrade,Comparator.nullsFirst(String)) ));
+
+
 
     }
 }
